@@ -13,10 +13,4 @@ public class ManualCar extends Car {
 		System.out.println("장애물 앞에서 브레이크를 밟아서 정지합니다.");
 	}
 
-	@Override
-	public void wiper() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

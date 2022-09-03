@@ -14,12 +14,6 @@ public class AICar extends Car {
 	}
 
 	@Override
-	public void wiper() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void washCar() {
 		System.out.println("자동 세차를 합니다.");
 	}
