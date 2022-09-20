@@ -12,7 +12,7 @@ public interface Calc {
 	
 	default void description() {	//디폴트 메서드
 		System.out.println("정수의 사칙연산을 제공합니다.");
-		myMethod();
+//		myMethod();
 	}
 	
 	static int total(int[] arr) {	//정적 메서드
@@ -21,16 +21,16 @@ public interface Calc {
 			total += num;
 		}
 		
-		myStaticMethod();
+//		myStaticMethod();
 		
 		return total;
 	}
 	
-	private void myMethod() {
-		System.out.println("myMethod");
-	}
-	
-	private static void myStaticMethod() {
-		System.out.println("myStaticMethod");
-	}
+//	private void myMethod() {
+//		System.out.println("myMethod");
+//	}
+//	
+//	private static void myStaticMethod() {
+//		System.out.println("myStaticMethod");
+//	}
 }
