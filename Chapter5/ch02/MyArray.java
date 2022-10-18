@@ -112,7 +112,7 @@ public class MyArray {
 		}
 		
 	}
-	
+	   
 	public void removeAll()
 	{
 		for(int i=0; i<count; i++){
